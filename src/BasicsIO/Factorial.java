@@ -1,7 +1,5 @@
 package BasicsIO;
 
-import java.util.Scanner;
-
 /*
 You have been given a positive integer N. You need to find and print the Factorial of this number. The Factorial of a positive integer N refers to the product of all number in the range from 1 to N. You can read more about the factorial of a number here.
 
@@ -19,10 +17,13 @@ SAMPLE OUTPUT
 2
  */
 
-public class FactorialRecursion {
+import java.util.Scanner;
+
+public class Factorial {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
+
         int num = s.nextInt();
         int fac = Rec(num);
         System.out.println(fac);
@@ -37,4 +38,3 @@ public class FactorialRecursion {
         return Rec(num - 1) * num;
     }
 }
-
