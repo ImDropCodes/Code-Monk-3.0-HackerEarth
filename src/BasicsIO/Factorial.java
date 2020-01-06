@@ -28,6 +28,7 @@ public class Factorial {
 
     }
 
+    // using recursion function for factorial
     public static int Rec(int num) {
         if (num == 1) {
             return 1;
