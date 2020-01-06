@@ -29,22 +29,22 @@ public class Zoo {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine().trim();
         char[] cha = new char[str.length()];
-        for(int i = 0 ; i < str.length();i++){
+        for (int i = 0; i < str.length(); i++) {
             cha[i] = str.charAt(i);
         }
 
         int z = 0;
         int o = 0;
-        for(char c : cha){
-            if(c =='z' || c == 'Z'){
+        for (char c : cha) {
+            if (c == 'z' || c == 'Z') {
                 z++;
-            }else if(c =='o' || c == 'O'){
+            } else if (c == 'o' || c == 'O') {
                 o++;
             }
         }
-        if(z == o/2){
+        if (z == o / 2) {
             System.out.print("Yes");
-        }else{
+        } else {
             System.out.print("No");
         }
 
