@@ -1,0 +1,13 @@
+Array
+
+-> An array is a sequential collection of element of same data type and store element in continuous memory location
+
+-> Element of an array are accessed by using an index
+
+-> Index of an array of size N can range from 0 to N-1
+
+Syntax:
+
+int[] are = new int[size]; => arr[i] = x;
+
+int[] arr = {1,2,3,4};
