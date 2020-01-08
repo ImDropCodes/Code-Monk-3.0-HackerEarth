@@ -15,20 +15,20 @@ public class Queue_int {
 
     public void enqueue(int ele) {
         if (rear == size) {
-            System.out.println("OverFlow");
         } else {
             queue[rear] = ele;
             rear++;
         }
     }
 
-    public void dequeue() {
+    public int dequeue() {
+        int x = queue[front];
         if (rear == front) {
-            System.out.println("UnderFlow");
         } else {
             queue[front] = 0;
             front++;
         }
+        return x;
     }
 
     public int front(){
