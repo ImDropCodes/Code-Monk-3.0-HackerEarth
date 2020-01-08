@@ -1,4 +1,4 @@
-package BasicsIO;
+package DataStructure.Stack;
 
 /*
 You have been given a String S. You need to find and print whether this string is a palindrome or not. If yes, print "YES" (without quotes), else print "NO" (without quotes).
@@ -53,34 +53,3 @@ public class Palindrome {
     }
 }
 
-//Stack Class
-class Stack {
-    private int top = -1;
-    private int size;
-    private char[] stack;
-
-    public Stack(int size) {
-        this.size = size;
-        top = -1;
-        stack = new char[size];
-    }
-
-    public void push(char ele) {
-        if (!isFull()) {
-            top++;
-            stack[top] = ele;
-        }
-    }
-
-    public char pop() {
-        return stack[top--];
-
-    }
-
-    public boolean isFull() {
-        if (top == stack.length - 1) {
-            return true;
-        }
-        return false;
-    }
-}

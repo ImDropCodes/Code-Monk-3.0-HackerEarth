@@ -1,4 +1,4 @@
-package DataStructure.Array_String;
+package DataStructure.Stack;
 /*
 Monk introduces the concept of palindrome saying,"A palindrome is a sequence of characters which reads the same backward or forward."
 Now, since he loves things to be binary, he asks you to find whether the given string is palindrome or not. If a given string is palindrome, you need to state that it is even palindrome (palindrome with even length) or odd palindrome (palindrome with odd length).
@@ -79,33 +79,3 @@ public class Monk_Teaches_Palindrome {
     }
 }
 
-// Stack Class
-class Stack {
-    int size;
-    int top = -1;
-    char[] stack;
-
-    public Stack(int size) {
-        this.size = size;
-        stack = new char[size];
-        top = -1;
-    }
-
-    public void push(char ele) {
-        if (!isFull()) {
-            top++;
-            stack[top] = ele;
-        }
-    }
-
-    public char pop() {
-        return stack[top--];
-    }
-
-    public boolean isFull() {
-        if (top == stack.length - 1) {
-            return true;
-        }
-        return false;
-    }
-}
