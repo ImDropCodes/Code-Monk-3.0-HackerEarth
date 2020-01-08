@@ -38,4 +38,8 @@ public class Queue_int {
     public boolean isEmpty(){
         return (rear == front);
     }
+
+    public int size(){
+        return (rear-front);
+    }
 }
