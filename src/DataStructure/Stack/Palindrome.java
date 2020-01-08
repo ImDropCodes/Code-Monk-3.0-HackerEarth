@@ -32,7 +32,7 @@ public class Palindrome {
         for (int i = 0; i < str.length(); i++) {
             char_1[i] = str.charAt(i);
         }
-        Stack stack = new Stack(char_1.length);
+        Stack_char stack = new Stack_char(char_1.length);
 
         for (char c : char_1) {
             stack.push(c);

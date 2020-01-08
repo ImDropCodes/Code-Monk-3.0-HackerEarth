@@ -47,7 +47,7 @@ public class Monk_Teaches_Palindrome {
 
     public static String Palindrome(String str) {
 
-        Stack stack = new Stack(str.length());
+        Stack_char stack = new Stack_char(str.length());
 
         char[] char_str = new char[str.length()];
 

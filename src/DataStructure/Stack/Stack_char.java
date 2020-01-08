@@ -1,12 +1,12 @@
 package DataStructure.Stack;
 
 // Stack Class
-class Stack {
+class Stack_char {
     int size;
     int top = -1;
     char[] stack;
 
-    public Stack(int size) {
+    public Stack_char(int size) {
         this.size = size;
         stack = new char[size];
         top = -1;
