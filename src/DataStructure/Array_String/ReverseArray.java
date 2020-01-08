@@ -1,4 +1,4 @@
-package DataStructure.Array;
+package DataStructure.Array_String;
 /*
 Given the size and the elements of array A, print all the elements in reverse order.
 

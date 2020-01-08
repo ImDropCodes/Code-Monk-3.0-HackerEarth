@@ -1,4 +1,4 @@
-package DataStructure.Array;
+package DataStructure.Array_String;
 
 /*
 Tony Stark is in the planet Titan crying for his friends are turning into ashes, and on earth mayhem has ensued since a lot of people are turning into ashes too. Some trains have been derailed in such a way that a lot of its coaches are thrown off in a random disarray like coach 3, 4 and 5 are thrown off in one place, coach 2 and 6 are thrown off in another place, etc.
