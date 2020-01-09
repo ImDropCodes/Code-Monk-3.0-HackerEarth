@@ -1,4 +1,4 @@
-package Algorithm.Searching;
+package Algorithm.Searching.Linear;
 /*
 Given a List of Distinct N number a1,a2,a3........an.
 Find The Position Of Number K In The Given List.

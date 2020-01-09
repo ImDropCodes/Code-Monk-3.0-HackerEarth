@@ -1,4 +1,4 @@
-package Algorithm.Searching;
+package Algorithm.Searching.Linear;
 
 public class LinearSearch {
     int[] array;
