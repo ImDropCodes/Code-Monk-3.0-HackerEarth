@@ -1,0 +1,30 @@
+Queue
+
+-> queue is a data structure which follows FIFO (First in First Out)
+    ie First element that is added to the Queue is removed from the Queue
+-> element are always added in back and deleted from front
+
+~ Variable used
+
+1) queueArray[]
+2) size: max number of element that stores in the queue array
+2) front: Point at the index where the next element will be deleted
+3) rear: Point at the index where the next element will br added
+
+
+~ Function supports
+
+1) enqueue(int ele):
+    If the queue is not full then this function add the element back of the array or else it print "OverFlow"
+
+2) dequeue():
+    If the queue is not empty then this function removes the element from front of the queue or else it print "UnderFlow"
+
+3) Front():
+    This function return the front element of queue
+
+4) Size():
+    This function return the size of the queue array
+
+5) isEmpty():
+    This function return if the Queue is empty or not.
