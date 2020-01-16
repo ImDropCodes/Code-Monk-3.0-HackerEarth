@@ -14,7 +14,7 @@ Queue
 
 ~ Function supports
 
-1) enqueue(int ele):
+1) enqueue(T ele):
     If the queue is not full then this function add the element back of the array or else it print "OverFlow"
 
 2) dequeue():
