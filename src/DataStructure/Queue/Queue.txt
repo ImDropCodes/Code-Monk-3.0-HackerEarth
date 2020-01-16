@@ -8,7 +8,7 @@ Queue
 
 1) queueArray[]
 2) size: max number of element that stores in the queue array
-2) front: Point at the index where the next element will be deleted
+2) peek / front : Point at the index where the next element will be deleted
 3) rear: Point at the index where the next element will br added
 
 
@@ -20,7 +20,7 @@ Queue
 2) dequeue():
     If the queue is not empty then this function removes the element from front of the queue or else it print "UnderFlow"
 
-3) Front():
+3) peek():
     This function return the front element of queue
 
 4) Size():

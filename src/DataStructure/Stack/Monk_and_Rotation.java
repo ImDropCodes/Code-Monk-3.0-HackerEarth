@@ -32,10 +32,13 @@ public class Monk_and_Rotation {
         Scanner s = new Scanner(System.in);
         int test_case = s.nextInt();
         for (int i = 0; i < test_case; i++) {
+
             int num_ele = s.nextInt();
             int step = s.nextInt();
             int[] array = new int[num_ele];
-            Stack_int stack = new Stack_int(num_ele);
+
+            Stack<Integer> stack = new Stack<>();
+
             for (int j = 0; j < num_ele; j++) {
                 stack.push(s.nextInt());
             }

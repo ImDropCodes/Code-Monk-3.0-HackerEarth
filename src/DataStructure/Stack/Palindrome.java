@@ -26,24 +26,24 @@ public class Palindrome {
 
         Scanner s = new Scanner(System.in);
 
-        String str = s.nextLine().trim();
-
-        char[] char_1 = new char[str.length()];
-        for (int i = 0; i < str.length(); i++) {
-            char_1[i] = str.charAt(i);
-        }
-        Stack_char stack = new Stack_char(char_1.length);
+        String str = s.nextLine().trim(); //getting input string
+        char[] char_1 = str.toCharArray(); // converting string into char array
+        //stack class
+        Stack<Character> stack = new Stack<>();
 
         for (char c : char_1) {
-            stack.push(c);
+            stack.push(c);  // Pushing char to stack
         }
-        char[] char_2 = new char[char_1.length];
+
+        char[] char_2 = new char[char_1.length];  // initializing new char array for comparision
 
         for (int i = 0; i < char_1.length; i++) {
-            char_2[i] = stack.pop();
+            char_2[i] = stack.pop();  // pop element from stack and store in 2nd char array
         }
 
-        String res_str = new String(char_2);
+        String res_str = new String(char_2); // converting char array to string
+
+        // comparing and printing the result
         if (res_str.equals(str)) {
             System.out.println("YES");
         } else {

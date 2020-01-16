@@ -47,7 +47,7 @@ public class Monk_Teaches_Palindrome {
 
     public static String Palindrome(String str) {
 
-        Stack_char stack = new Stack_char(str.length());
+        Stack<Character> stack = new Stack<>();
 
         char[] char_str = new char[str.length()];
 
@@ -66,7 +66,6 @@ public class Monk_Teaches_Palindrome {
         if (res_str.equals(str)) {
             return "YES " + ev_od;
         }
-
         return "NO";
     }
 
